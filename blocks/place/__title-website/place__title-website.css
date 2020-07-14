@@ -1,0 +1,15 @@
+.place__title-website {
+    max-width: 984px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 48px;
+}
+
+@media screen and (max-width: 425px) {
+    .place__title-website {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 32px;
+    }
+}

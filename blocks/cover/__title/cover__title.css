@@ -1,0 +1,34 @@
+.cover__title {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    color: #ffffff;
+    max-width: 560px;
+    z-index: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.cover__title:hover ~ .cover__overlay {
+    background-color: #2A2C2F;
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 535px) {
+    .cover__title {
+        font-size: 42px;
+        line-height: 46px;
+        width: 90%; 
+    }
+}
+
+@media screen and (max-width: 425px) {  
+    .cover__title {
+        width: 83%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}

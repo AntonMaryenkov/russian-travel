@@ -1,0 +1,32 @@
+@import url(./__title/intro__title.css);
+@import url(./__text/intro__text.css);
+@import url(./__list/intro__list.css);
+
+.intro {
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    width: 76.9%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        width: 90.6%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .intro {
+        width: 93.8%;
+        padding-top: 88px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .intro {
+        width: 90%;
+        padding-top: 64px;
+    }
+}

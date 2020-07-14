@@ -1,0 +1,14 @@
+.place__image-text {
+    max-width: 984px;
+    display: flex;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 425px) {  
+    .place__image-text {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
