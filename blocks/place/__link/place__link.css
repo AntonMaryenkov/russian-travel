@@ -2,11 +2,18 @@
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 22px;
+    line-height: 32px;
     text-decoration-line: underline;
     color: #ffffff;
 }
 
 .place__link:hover {
     opacity: 0.8;
+    -webkit-tap-highlight-color: transparent;
+}
+
+@media screen and (max-width: 560px) {
+    .place__link {
+        font-size: 14px;
+        line-height: 26px;
 }

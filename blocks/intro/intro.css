@@ -3,7 +3,7 @@
 @import url(./__list/intro__list.css);
 
 .intro {
-    padding-top: 92px;
+    padding-top: 87px;
     display: flex;
     flex-direction: column;
     width: 76.9%;

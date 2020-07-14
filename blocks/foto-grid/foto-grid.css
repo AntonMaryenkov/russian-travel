@@ -5,8 +5,8 @@
     max-width: 1184px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 92px;
-    padding-bottom: 92px;
+    padding-top: 93px;
+    padding-bottom: 97px;
     grid-template-columns: repeat(4, minmax(200px, 1fr));
     grid-gap: 16px;
 }
@@ -32,7 +32,7 @@
         grid-template-columns: minmax(100px, 420px);
         grid-gap: 12px;
         padding-top: 64px;
-        padding-bottom: 64px;
+        padding-bottom: 67px;
         width: 90%;
     }
 }

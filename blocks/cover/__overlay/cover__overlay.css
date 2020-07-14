@@ -10,6 +10,7 @@
 .cover__overlay:hover {
   background-color: #2A2C2F;
   opacity: 0.3;
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media screen and (max-width: 1024px) {

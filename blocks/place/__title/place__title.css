@@ -11,20 +11,46 @@
     margin-right: 40px;
 }
 
+@media screen and (max-width: 1110px) {
+    .place__title {
+        font-size: 62px;
+        line-height: 66px;
+    }
+}
+
+
 @media screen and (max-width: 1024px) {
     .place__title {
         max-width: 47.4%;
         margin-right: 32px;
+        font-size: 73px;
+        line-height: 75px;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .place__title {
+        font-size: 52px;
+        line-height: 54px;
     }
 }
 
 @media screen and (max-width: 768px) {
     .place__title {
-        max-width: 47.2%;
+        max-width: 45.2%;
+        margin-right: 44px;
         font-size: 42px;
         line-height: 46px;
     }
 }
+
+@media screen and (max-width: 650px) {
+    .place__title {
+        font-size: 36px;
+        line-height:40px;
+    }
+}
+
 
 @media screen and (max-width: 425px) {  
     .place__title {
