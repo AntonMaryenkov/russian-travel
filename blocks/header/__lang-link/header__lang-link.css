@@ -1,3 +1,5 @@
+@import url(./_active/header__lang-link_active.css);
+
 .header__lang-link {
     color: white;
     font-size: 24px;
@@ -9,14 +11,7 @@
 
 .header__lang-link:hover {
     opacity: 0.8;
-}
-
-.header__lang-link:active {
-    text-decoration: underline;
-}
-
-.header__lang-link:focus {
-    text-decoration: underline;
+    transition: 0.3s;
 }
 
 @media screen and (max-width: 425px) {

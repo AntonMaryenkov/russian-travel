@@ -9,6 +9,7 @@
 
 .place__link:hover {
     opacity: 0.8;
+    transition: 0.3s;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -16,4 +17,5 @@
     .place__link {
         font-size: 14px;
         line-height: 26px;
+    }
 }

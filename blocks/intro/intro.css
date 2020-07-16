@@ -1,9 +1,10 @@
 @import url(./__title/intro__title.css);
 @import url(./__text/intro__text.css);
 @import url(./__list/intro__list.css);
+@import url(./__span-accent/intro__span-accent.css);
 
 .intro {
-    padding-top: 87px;
+    padding-top: 98px;
     display: flex;
     flex-direction: column;
     width: 76.9%;

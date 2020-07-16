@@ -1,4 +1,4 @@
-.place__title-website {
+.place__header {
     max-width: 984px;
     display: flex;
     align-items: flex-end;
@@ -6,9 +6,8 @@
 }
 
 @media screen and (max-width: 425px) {
-    .place__title-website {
+    .place__header {
         width: 100%;
-        display: flex;
         flex-direction: column;
         margin-bottom: 32px;
     }

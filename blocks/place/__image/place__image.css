@@ -5,14 +5,8 @@
 
 @media screen and (max-width: 1024px) {
     .place__image {
-        width: 47.4%;
-        margin-right: 32px;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .place__image {
         width: 47.2%;
+        margin-right: 32px;
     }
 }
 

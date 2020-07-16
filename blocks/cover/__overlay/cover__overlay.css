@@ -2,14 +2,16 @@
   position: absolute;
   top: 0;
   left: 3.7%;
-  width: 92.5%;
+  width: 92.6%;
   height: 100%;
   z-index: 0;
+  background-color: #2A2C2F;
+  opacity: 0.3;
 }
 
 .cover__overlay:hover {
-  background-color: #2A2C2F;
-  opacity: 0.3;
+  opacity: 0.8;
+  transition: 0.5s;
   -webkit-tap-highlight-color: transparent;
 }
 

@@ -14,7 +14,7 @@
 
 .cover__subtitle:hover ~ .cover__overlay {
     background-color: #2A2C2F;
-    opacity: 0.3;
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 425px) {  
