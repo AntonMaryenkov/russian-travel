@@ -1,0 +1,36 @@
+.popup__container {
+    background-color: #ffffff;
+    width: 1100px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 113px;
+    padding-bottom: 179px;
+    padding-left: 102px;
+    position: relative;
+}
+
+@media screen and (max-width: 1280px) {
+    .popup__container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .popup__container {
+        padding-left: 0;
+        justify-content: start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .popup__container {
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .popup__container {
+        padding-top: 70px;
+    }
+}

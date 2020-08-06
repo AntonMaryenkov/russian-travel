@@ -1,6 +1,4 @@
-@import url(./_active/header__lang-link_active.css);
-
-.header__lang-link {
+.header__link {
     color: white;
     font-size: 24px;
     line-height: 34px;
@@ -9,13 +7,13 @@
     text-decoration: none;
 }
 
-.header__lang-link:hover {
+.header__link:hover {
     opacity: 0.8;
     transition: 0.3s;
 }
 
 @media screen and (max-width: 425px) {
-    .header__lang-link {
+    .header__link {
         font-size: 18px;
         line-height: 20px;
     }

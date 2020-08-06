@@ -1,5 +1,7 @@
+@import url(./__links/header__links.css);
 @import url(./__lang-links/header__lang-links.css);
-@import url(./__lang-link/header__lang-link.css);
+@import url(./__link/header__link.css);
+@import url(./__link/_info/header__link_info.css);
 
 .header {
     padding-top: 28px;

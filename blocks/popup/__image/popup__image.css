@@ -1,0 +1,15 @@
+.popup__image {
+    width: 505px;
+}
+
+@media screen and (max-width: 1000px) {
+    .popup__image {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .popup__image {
+        width: 100%;
+    }
+}

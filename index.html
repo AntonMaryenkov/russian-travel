@@ -10,10 +10,13 @@
     <div class="page">
         <header class="header">
             <div class="logo"></div>
-            <ul class="header__lang-links">
-                <li><a href="#" class="header__lang-link header__lang-link_active">Ru</a></li>
-                <li><a href="#" class="header__lang-link">En</a></li>
-            </ul>
+            <div class="header__links">
+                <a href="#" class="header__link header__link_info">О проекте</a>
+                <ul class="header__lang-links">
+                    <li><a href="#" class="header__link header__link_active">Ru</a></li>
+                    <li><a href="#" class="header__link">En</a></li>
+                </ul>
+            </div>
         </header>
 
         <main class="content">
@@ -160,5 +163,21 @@
         </footer>
 
     </div>
+
+    <div class="popup">
+        <div class="popup__container">
+            <button class="popup__close-icon" type="button"></button>
+            <h3 class="popup__heading">О проекте</h3>
+            <p class="popup__text">Путешествия по России это студенческий проект третьего спринта программы веб-разработчик. Его задача — отточить навык адаптивной вёрстки и работы с Фигмой. А этот попап — кейс для отработки практики 4-го спринта.</p>
+            <a class="popup__open-image">Показать иллюстрацию</a>
+            <div class="popup__image-block">
+                <img class="popup__image" src="./images/popup-image.jpg ">
+                <button class="popup__close-image" type="button"></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./scripts/index.js"></script>
+
 </body>
 </html>
