@@ -19,12 +19,20 @@ let activeLinkHeaderProject = function () {
 let popupToggle = function () {
     popup.classList.toggle('popup_visible');
     activeLinkHeaderProject();
+    // Здесь каждый раз при открытии/закрытии popupa убирает у картинки свойство display: flex
+    // А тут каждый раз при открытии/закрытии popupa убирает у "Показать иллюстрацию" display: none
+}
+
+let imageButtonPopupClosed = function () {
+    blockImagePopup.classList.remove('popup__image-block_visible');
+    openImagePopup.classList.remove('popup__open-image_visible');
+    popupToggle();
 }
 
 // События при клике на "О проекте" и иконку закрытия popup'а
 
 openInfoProject.addEventListener('click', popupToggle);
-closeIcon.addEventListener('click', popupToggle);
+closeIcon.addEventListener('click', imageButtonPopupClosed);
 
 // Меняем display: none на flex у блока с картинкой внутри popup окна
 
@@ -86,7 +94,7 @@ let openImageBlock = function () {
 
 let closedImageBlock = function () {
     containerClosedImageBlock(mql); 
-}  
+}
 
 // Меняем display: flex на none у ссылки "Показать иллюстрацию"
 
@@ -113,7 +121,7 @@ closeImagePopup.addEventListener('click', openImageToggle);
 
 let closePopup = function (event) {
     if (event.target !== event.currentTarget) return false;
-    popupToggle();
+    imageButtonPopupClosed();
 } 
 popup.addEventListener('click', closePopup);
 
